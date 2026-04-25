@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App - Lista de Tareas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header>
+        <h1>Mis Tareas</h1>
+        <nav><a href="index.html">Volver</a></nav>
+    </header>
+
+    <main class="todo-container">
+        <form id="todoForm">
+            <input type="text" id="todoInput" placeholder="¿Qué tenés que hacer hoy?">
+            <button type="submit">Agregar</button>
+        </form>
+
+        <p>Tareas pendientes: <span id="contador">0</span></p>
+
+        <ul id="listaTareas"></ul>
+    </main>
+
+    <script src="js/todo.js"></script>
+</body>
+</html>

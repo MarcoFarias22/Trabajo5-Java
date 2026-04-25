@@ -1,0 +1,61 @@
+/* Tarjetas Profesionales */
+.tarjeta {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--sombra);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+}
+
+/* Estados Visuales */
+.mensaje-loading {
+    color: var(--color-primario);
+    font-weight: bold;
+    text-align: center;
+    animation: pulse 1.5s infinite;
+}
+
+.mensaje-error {
+    background-color: #fee2e2;
+    border: 1px solid var(--color-error);
+    color: var(--color-error);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* Estilos Específicos To-Do */
+.completada span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Buscador Estilizado */
+.input-busqueda-api {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: 2px solid #ddd;
+    margin-bottom: 2rem;
+}
+
+.input-busqueda-api:focus {
+    outline: none;
+    border-color: var(--color-primario);
+}
