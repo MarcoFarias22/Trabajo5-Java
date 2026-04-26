@@ -63,6 +63,7 @@ inputBusqueda.addEventListener("input", (e) => {
         estadoDiv.innerHTML = '<p class="info-busqueda">Escribe al menos 3 caracteres para buscar...</p>';
         return;
     }
+    
 
     if (termino.length === 0) {
         estadoDiv.innerHTML = "";
@@ -70,7 +71,7 @@ inputBusqueda.addEventListener("input", (e) => {
         return;
     }
 
-    
+
     
     estadoDiv.innerHTML = '<p class="mensaje-loading">Buscando...</p>';
 
