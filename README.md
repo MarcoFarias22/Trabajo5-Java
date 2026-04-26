@@ -1,10 +1,10 @@
-# Trabajo Práctico N°5: JavaScript ES6+
-### Programación II - Escuela Normal de Maestras "Gral. Manuel Belgrano"
+# Trabajo Práctico N°5: JavaScript 
+### Programación II 
 
-## 📋 Descripción
-Este proyecto integra diversas funcionalidades desarrolladas con **JavaScript ES6+**, manipulando el DOM de forma dinámica y consumiendo datos de una API externa. Se aplicaron conceptos de programación asíncrona, manejo de eventos y diseño responsivo.
+##  Descripción
+Este proyecto integra diversas funcionalidades desarrolladas con **JavaScript**, manipulando el DOM de forma dinámica y consumiendo datos de una API externa. Se aplicaron conceptos de programación asíncrona, manejo de eventos y diseño responsivo.
 
-## 🚀 Funcionalidades Principales
+##  Funcionalidades Principales
 
 ### 1. Ejercicios de Lógica (Consola)
 Resolución de problemas utilizando métodos avanzados de arrays:
@@ -32,12 +32,12 @@ Consumo de la [PokéAPI](https://pokeapi.co/) con las siguientes característica
 - Renderizado de tarjetas dinámicas con Grid CSS.
 - Buscador dinámico con requisito de mínimo 3 caracteres para filtrar.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 - **HTML5** y **CSS3** (Uso de Variables, Flexbox y Grid).
 - **JavaScript (ES6+):** Async/Await, Arrow Functions, Template Literals.
 - **Git & GitHub:** Control de versiones con flujo de ramas.
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 ```text
 TP5/
 ├── index.html          # Panel principal de navegación
