@@ -10,6 +10,7 @@ const productos = [
     { id: 8, nombre: "Monitor 24 Pulgadas", precio: 45000, categoria: "Electronica", enStock: true }
 ];
 
+
 // 2. Referencias al DOM
 const contenedor = document.getElementById("contenedorProductos");
 const inputBusqueda = document.getElementById("inputBusqueda");
