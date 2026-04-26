@@ -22,7 +22,7 @@ const buscarAlumno = (alumnos, nombreBuscado) => {
     return alumnos.find(alumno => alumno.nombre.toLowerCase() === nombreBuscado.toLowerCase());
 };
 
-// --- Pruebas con console.log() ---
+// Pruebas con console.log() ---
 const listaAlumnos = [
     { nombre: "Marco", nota: 10 },
     { nombre: "Ana", nota: 5 },

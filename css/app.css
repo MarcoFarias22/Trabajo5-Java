@@ -1,4 +1,4 @@
-
+/* Tarjetas Profesionales */
 .tarjeta {
     background: white;
     padding: 1.5rem;
@@ -18,7 +18,7 @@
     margin-bottom: 1rem;
 }
 
-
+/* Estados Visuales */
 .mensaje-loading {
     color: var(--color-primario);
     font-weight: bold;
@@ -40,13 +40,13 @@
     100% { opacity: 1; }
 }
 
-
+/* Estilos Específicos To-Do */
 .completada span {
     text-decoration: line-through;
     color: gray;
 }
 
-
+/* Buscador Estilizado */
 .input-busqueda-api {
     width: 100%;
     padding: 12px;

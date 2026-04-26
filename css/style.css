@@ -1,4 +1,4 @@
-
+/* Variables Globales */
 :root {
     --color-primario: #2563eb;
     --color-secundario: #f1f5f9;
@@ -42,7 +42,7 @@ main {
     padding: 0 1rem;
 }
 
-
+/* Layout Responsive Grid */
 .grid-productos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
