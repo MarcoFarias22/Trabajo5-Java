@@ -1,4 +1,4 @@
-// 1. Definición del array de productos (mínimo 8) 
+// 1. Definición del array de productos  
 const productos = [
     { id: 1, nombre: "Laptop Gamer", precio: 85000, categoria: "Electronica", enStock: true },
     { id: 2, nombre: "Cafetera Express", precio: 15000, categoria: "Hogar", enStock: true },
