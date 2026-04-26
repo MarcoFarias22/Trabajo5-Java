@@ -63,12 +63,14 @@ inputBusqueda.addEventListener("input", (e) => {
         estadoDiv.innerHTML = '<p class="info-busqueda">Escribe al menos 3 caracteres para buscar...</p>';
         return;
     }
+    
 
     if (termino.length === 0) {
         estadoDiv.innerHTML = "";
         renderizarTarjetas(pokemonCache);
         return;
     }
+
 
     
     estadoDiv.innerHTML = '<p class="mensaje-loading">Buscando...</p>';
