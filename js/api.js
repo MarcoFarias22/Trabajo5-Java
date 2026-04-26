@@ -71,6 +71,7 @@ inputBusqueda.addEventListener("input", (e) => {
     }
 
     
+    
     estadoDiv.innerHTML = '<p class="mensaje-loading">Buscando...</p>';
 
     
