@@ -4,6 +4,7 @@ const input = document.getElementById("todoInput");
 const lista = document.getElementById("listaTareas");
 const contador = document.getElementById("contador");
 
+
 let tareasPendientes = 0;
 
 // Función para actualizar el contador
